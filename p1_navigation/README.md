@@ -36,7 +36,7 @@ For the training session,
  * _n_fc1_ is played out as a value 64,
  * _n_fc2_ is played out as a value 64.
 
-For the training session, we construct the **agent** with parameters
+For the training session, we construct the **agent** with above parameters
 and we run the *Deep-Q-Network* procedure **dqn** as follows:
 
   agent = **Agent**(state_size=37, action_size=4, seed=1, n_fc1=64, n_fc2=64)       
