@@ -43,7 +43,7 @@ and we run the *Deep-Q-Network* procedure **dqn** as follows:
   scores, episodes = **dqn**(n_episodes = 1000, eps_start = epsilon_start)
 
 ### Results
-![Result Graph](/plot.png)
+![Result Graph](plot.png)
   
 ## Dependencies
 
