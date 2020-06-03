@@ -6,7 +6,7 @@
 
 ### Introduction
 
-For this project, you will train an agent to navigate (and collect bananas!) in a large, square world.  
+For this project, we will train an agent to navigate (and collect bananas!) in a large, square world.  
 
 ![Trained Agent][image1]
 
@@ -41,6 +41,9 @@ and we run the *Deep-Q-Network* procedure **dqn** as follows:
 
   agent = **Agent**(state_size=37, action_size=4, seed=1, n_fc1=64, n_fc2=64)       
   scores, episodes = **dqn**(n_episodes = 1000, eps_start = epsilon_start)
+
+### Results
+![Result Graph](/plot.png)
   
 ## Dependencies
 
