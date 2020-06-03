@@ -66,7 +66,10 @@ cd deep-reinforcement-learning/python
 pip install .
 ```
 
-3. Then run the code cells of **Navigation.ipynb** one by one.
+3. Then run the code cells of **Navigation.ipynb** one by one in jupyter notebook.
+```bash
+jupyter notebook
+```
   
 ### Credit
 
