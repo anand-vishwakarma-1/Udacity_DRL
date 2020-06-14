@@ -21,6 +21,26 @@ The observation space consists of 33 variables corresponding to position, rotati
 The task is episodic, and in order to solve the environment,  your agent must get an average score of +30 over 100 consecutive episodes.
 
 
+### Environment
+
+We start the environment as follows:
+
+_env = UnityEnvironment(file_name='/data/Reacher_Linux_NoVis/Reacher.x86_64')_
+
+### Training session and parameter
+
+We experience the following parameters:  _n_fc1_, _n_fc2_.
+For the training session for both Policy and Value Networks, 
+ * _n_fc1_ is played out as a value 128,
+ * _n_fc2_ is played out as a value 128.
+
+For the training session, we construct the **agent** with above parameters
+and we run the *Deep-Q-Network* procedure **ddpg** as follows:
+
+  agent = Agent(state_size=state_size, action_size=action_size, random_seed=8)
+  scores = ddpg()
+
+
 ### Results
 ![Result Graph](plot.png)
   
