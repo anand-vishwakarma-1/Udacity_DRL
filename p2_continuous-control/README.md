@@ -37,8 +37,8 @@ For the training session for both Policy and Value Networks,
 For the training session, we construct the **agent** with above parameters
 and we run the *Deep-Q-Network* procedure **ddpg** as follows:
 
-  agent = Agent(state_size=state_size, action_size=action_size, random_seed=8)<br>
-  scores = ddpg()
+  agent = **Agent**(state_size=state_size, action_size=action_size, random_seed=8)<br>
+  scores = **ddpg**()
 
 
 ### Results
