@@ -30,7 +30,7 @@ _env = UnityEnvironment(file_name='/data/Reacher_Linux_NoVis/Reacher.x86_64')_
 ### Training session and parameter
 
 We experience the following parameters:  _n_fc1_, _n_fc2_.
-For the training session for both Policy and Value Networks, 
+For the training session for both Actor and Critic Networks, 
  * _n_fc1_ is played out as a value 128,
  * _n_fc2_ is played out as a value 128.
 
@@ -75,4 +75,4 @@ jupyter notebook
   
 ### Credit
 
-Most of the code is based on the Udacity code and Pytorch tutorials.
+Most of the code is based on the Udacity code for DDPG and Pytorch tutorials.
