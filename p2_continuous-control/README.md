@@ -75,4 +75,4 @@ jupyter notebook
   
 ### Credit
 
-Most of the code is based on the Udacity code and Pytorch tutorials.
+Most of the code is based on the Udacity code for DDPG and Pytorch tutorials.
