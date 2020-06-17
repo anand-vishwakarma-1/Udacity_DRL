@@ -34,19 +34,19 @@ _env = UnityEnvironment(file_name="/data/Tennis_Linux_NoVis/Tennis")_
 ### Training session and parameter
 
 There are total 8 networks, 4 for each agent, in which each Actor and Critic have local and target networks.
-For Actor:
-Fully-Connected Layer 1, number of neurons: _state_size_ x _n_fc1_ ,
-Fully-Connected Layer 2, number of neurons: _n_fc1_ x _n_fc2_ ,
-Fully-Connected Layer 3, number of neurons: _n_fc2_ x _action_size_ ,
-For the training session for Actor Networks, 
+For Actor:<br>
+Fully-Connected Layer 1, number of neurons: _state_size_ x _n_fc1_ ,<br>
+Fully-Connected Layer 2, number of neurons: _n_fc1_ x _n_fc2_ ,<br>
+Fully-Connected Layer 3, number of neurons: _n_fc2_ x _action_size_ ,<br>
+For the training session for Actor Networks, <br>
  * _n_fc1_ is played out as a value 32,
  * _n_fc2_ is played out as a value 32.
  
-For Critic:
-Fully-Connected Layer 1, number of neurons: _(state_size + action_size) x n_agents x _n_fcs1_ ,
-Fully-Connected Layer 2, number of neurons: _n_fcs1_ x _n_fc2_ ,
-Fully-Connected Layer 3, number of neurons: _n_fc2_ x 1 ,
-For the training session for Actor Networks, 
+For Critic:<br>
+Fully-Connected Layer 1, number of neurons: _(state_size + action_size) x n_agents x _n_fcs1_ ,<br>
+Fully-Connected Layer 2, number of neurons: _n_fcs1_ x _n_fc2_ ,<br>
+Fully-Connected Layer 3, number of neurons: _n_fc2_ x 1 ,<br>
+For the training session for Actor Networks, <br>
  * _n_fcs1_ is played out as a value 64,
  * _n_fc2_ is played out as a value 64.
 
