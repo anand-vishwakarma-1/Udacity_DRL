@@ -46,7 +46,7 @@ For Critic:<br>
 Fully-Connected Layer 1, number of neurons: _(state_size + action_size) x n_agents x _n_fcs1_ ,<br>
 Fully-Connected Layer 2, number of neurons: _n_fcs1_ x _n_fc2_ ,<br>
 Fully-Connected Layer 3, number of neurons: _n_fc2_ x 1 ,<br>
-For the training session for Actor Networks, <br>
+For the training session for Critic Networks, <br>
  * _n_fcs1_ is played out as a value 64,
  * _n_fc2_ is played out as a value 64.
 
